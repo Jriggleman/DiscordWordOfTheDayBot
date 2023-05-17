@@ -50,7 +50,7 @@ async def on_ready():
             last_word = word
             print(word + "\n" + definition)
 
-
+        #Sleep for 1 hour
         await asyncio.sleep(3600)
 
 
