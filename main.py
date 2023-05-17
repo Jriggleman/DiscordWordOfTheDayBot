@@ -4,8 +4,8 @@ import re
 from discord.ext import commands
 from urllib.request import urlopen
 
-BOT_TOKEN = 'MTA5Nzk1MjM4NDMxMjk1NTAwMA.Gpqu9w.MC4b8tcTBqpbzVjoJhJ1PpZ3Irc7628oMc5hvU'
-CHANNEL_ID = 1095333367014248453
+BOT_TOKEN = '{YOUR TOKEN HERE}'
+CHANNEL_ID = {YOUR CHANNEL ID HERE}
 
 bot = commands.Bot(command_prefix="!", intents=discord.Intents.all())
 
